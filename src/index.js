@@ -1,4 +1,3 @@
-module.exports = function reverse (n) {
-  let arr = [...n];
-  return arr.reverse().join('');
+module.exports = function reverse (n) {  
+  return parseInt(n.toString().split('').reverse().join(''));
 }
